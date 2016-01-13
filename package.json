@@ -41,9 +41,7 @@
     "react-router": "^1.0.3",
     "redux": "^3.0.5",
     "sass-loader": "^3.1.2",
-    "webpack": "^1.12.9"
-  },
-  "devDependencies": {
+    "webpack": "^1.12.9",
     "babel-eslint": "^5.0.0-beta6",
     "css-loader": "^0.23.1",
     "eslint": "^1.10.3",

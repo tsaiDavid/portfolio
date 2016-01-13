@@ -41,10 +41,6 @@ export default function(app) {
           exclude: /node_modules/,
           loader:  'babel',
           query:   BABEL_QUERY
-        },
-        {
-          test: require.resolve('react-burger-menu'),
-          loader: 'imports?this=>window'
         }
       ]
     },

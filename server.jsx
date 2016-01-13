@@ -32,8 +32,8 @@ app.use( (req, res) => {
       return res.status(500).end('Internal server error');
     }
 
-    if(!renderProps)
-      return res.status(404).end('Not found');
+    // if(!renderProps)
+    //   return res.status(404).end('Not Found');
 
     function renderView() {
       const InitialView = (

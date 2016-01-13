@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react'
 import { NameDescription } from './NameDescription'
 
 if (typeof window !== 'undefined') {
-  require('../styles/main.scss')
+  require('../styles/styles.scss')
 }
 
 export default class MainView extends React.Component {

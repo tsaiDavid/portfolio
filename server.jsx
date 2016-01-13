@@ -55,6 +55,7 @@ app.use( (req, res) => {
           <script>
             window.__INITIAL_STATE__ = ${JSON.stringify(initialState)};
           </script>
+          <link rel="stylesheet" href="/main.css">
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" media="screen" />
         </head>
         <body>

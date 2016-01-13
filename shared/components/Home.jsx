@@ -1,22 +1,19 @@
-import React, { Component , PropTypes }   from 'react';
-// import TodosView              from './TodosView';
-// import TodosForm              from './TodosForm';
-// import { bindActionCreators } from 'redux';
-// import * as TodoActions       from 'actions/TodoActions';
-import { connect }            from 'react-redux';
+import React from 'react'
+import { connect } from 'react-redux'
 
-class Home extends Component {
-  static propTypes = {
-    projects: PropTypes.any.isRequired,
-    dispatch: PropTypes.func.isRequired
-  };
-
+class Home extends React.Component {
   render() {
-    const { projects } = this.props;
-
     return (
       <div id="project-list">
-        {projects}
+        <div className="video-wrapper row">
+          <img
+            className="gfyitem"
+            data-id="LankyConventionalBuck"
+            data-controls="false"
+            data-autoplay="true"
+            data-expand="true"
+          />
+        </div>
       </div>
     );
   }

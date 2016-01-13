@@ -35,14 +35,16 @@ export default function(app) {
       './client'
     ],
     module: {
-      loaders: [
-        {
-          test:    /\.jsx?$/,
-          exclude: /node_modules/,
-          loader:  'babel',
-          query:   BABEL_QUERY
-        }
-      ]
+      loaders: [{
+        test:    /\.jsx?$/,
+        exclude: /node_modules/,
+        loader:  'babel',
+        query:   BABEL_QUERY
+      },
+      {
+        test: /\.scss$/,
+        loader: 'style!css!sass'
+      }]
     },
     plugins: [
       new webpack.optimize.OccurenceOrderPlugin(),

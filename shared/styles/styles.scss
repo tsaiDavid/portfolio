@@ -1,0 +1,32 @@
+@import 'typography';
+
+body {
+  margin: 0px;
+}
+
+.project {
+  background-color: #999;
+  height: 400px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title-description {
+  float: right;
+  text-align: right;
+}
+
+.main-header {
+  background-color: transparentize(#999, .8);
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.video-wrapper {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}

@@ -55,10 +55,12 @@ app.use( (req, res) => {
           <script>
             window.__INITIAL_STATE__ = ${JSON.stringify(initialState)};
           </script>
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" media="screen" />
         </head>
         <body>
           <div id="react-view">${componentHTML}</div>
           <script type="application/javascript" src="/bundle.js"></script>
+          <script type"text/javascript" src="https://assets.gfycat.com/gfycat.js"></script>
         </body>
       </html>
       `;

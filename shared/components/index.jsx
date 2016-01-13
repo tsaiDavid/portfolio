@@ -1,4 +1,9 @@
 import React, { PropTypes } from 'react'
+import { NameDescription } from './NameDescription'
+
+if (typeof window !== 'undefined') {
+  require('../styles/styles.scss')
+}
 
 export default class MainView extends React.Component {
   static propTypes = {
@@ -8,8 +13,10 @@ export default class MainView extends React.Component {
   render() {
     return (
       <div id="main-view">
-        <h1>David Tsai</h1>
-        <hr />
+        <div className="main-header row">
+          <div id="title-name" className="ten columns">david tsai</div>
+          <NameDescription className="two columns"/>
+        </div>
         {this.props.children}
       </div>
     )

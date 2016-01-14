@@ -34,7 +34,7 @@ http://localhost:3000
 
 ## Releasing to Production
 
-Production has Devtools, logging and hot reloading middleware removed and the scripts/css compressed. 
+Production creates a `bundle.js` and `main.css` - these contain the scripts and stylesheets used throughout the application. Using Babel 6 throughout the project allows for easy usage of ES6/ES7 syntax and lazy loading of stylesheets, if so desired.
 
 In the project's directory, run the following commands:
 

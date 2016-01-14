@@ -1,6 +1,8 @@
 # David Tsai - Portfolio
 
-My personal portfolio: a **universal / isomorphic rendering** application in React and Redux. [Live Example Soon](http://www.whataniceguy.com)
+My personal portfolio: a **universal / isomorphic rendering** application in React and Redux.
+
+[Live Example Avail. Soon](http://www.whataniceguy.com)
 
 Some technologies utilized here include:
 * React

@@ -21,19 +21,19 @@ if (process.env.NODE_ENV !== 'production') {
 
 app.use(express.static(path.join(__dirname, 'dist')));
 
-app.use( (req, res) => {
+app.use((req, res) => {
   const location = createLocation(req.url);
   const reducer  = combineReducers(reducers);
   const store    = applyMiddleware(promiseMiddleware)(createStore)(reducer);
 
   match({ routes, location }, (err, redirectLocation, renderProps) => {
-    if(err) {
+    if (err) {
       console.error(err);
       return res.status(500).end('Internal server error');
     }
 
-    // if(!renderProps)
-    //   return res.status(404).end('Not Found');
+    if (!renderProps)
+      return res.status(404).end('Not Found');
 
     function renderView() {
       const InitialView = (

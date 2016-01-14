@@ -1,7 +1,7 @@
 @import 'typography';
 
 body {
-  margin: 0px;
+  background-color: #F5F5F5;
 }
 
 .project {
@@ -12,15 +12,40 @@ body {
 }
 
 .title-description {
-  float: right;
-  text-align: right;
+  background-color: #67727A;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .main-header {
-  background-color: transparentize(#999, .8);
+  background-color: #C3D7DF;
   top: 0%;
   left: 0%;
   width: 100%;
+}
+
+.menu-item {
+  a {
+    color: #C3D7DF;
+  }
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.header-separator {
+  background-color: #D75C37;
+  height: 5px;
+}
+
+.title-name {
+  color: #466675;
+  text-align: center;
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
 }
 
 .video-wrapper {

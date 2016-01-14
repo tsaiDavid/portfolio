@@ -1,8 +1,14 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
+const mapStateToProps = (state) => ({
+  projects: state.projects,
+  routing: state.routing
+})
+
 class Home extends React.Component {
   render() {
+    console.log(this.props.routing)
     return (
       <div id="project-list">
         <div className="video-wrapper row">
@@ -19,4 +25,4 @@ class Home extends React.Component {
   }
 }
 
-export default connect(state => ({ projects: state.projects }))(Home)
+export default connect(mapStateToProps)(Home)

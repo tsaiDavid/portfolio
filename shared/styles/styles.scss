@@ -11,6 +11,22 @@ body {
   margin-bottom: 1rem;
 }
 
+.about-container {
+  padding-top: 5rem;
+}
+
+.question {
+  padding-bottom: 2rem;
+
+  .question-title {
+    padding-bottom: 1rem;
+  }
+
+  .question-response {
+    text-align: justify;
+  }
+}
+
 .title-description {
   background-color: #67727A;
   color: white;

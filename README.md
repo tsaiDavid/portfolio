@@ -2,7 +2,7 @@
 
 My personal portfolio: a **universal / isomorphic rendering** application in React and Redux.
 
-[Live Example Avail. Soon](http://www.whataniceguy.com)
+[Live Example Avail. Soon](http://www.davidtsai.codes)
 
 Some technologies utilized here include:
 * React

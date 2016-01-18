@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react';
+import { HeaderBw } from './HeaderBw';
 import { Header } from './Header';
 
 if (typeof window !== 'undefined') {
@@ -13,6 +14,7 @@ export default class MainView extends React.Component {
   render() {
     return (
       <div id="main-view">
+        <HeaderBw />
         <Header />
         {this.props.children}
       </div>

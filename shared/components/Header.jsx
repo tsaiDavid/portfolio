@@ -4,18 +4,10 @@ import { Link } from 'react-router';
 export const Header = () => {
   return (
     <div className="main-header row">
-      <Link to={'/'}>
-        <div className="title-name six columns">
-        david tsai
-        </div>
-      </Link>
-      <div className="title-description six columns">
-        <div>
-        full stack software engineer
-        </div>
-        <div>
-        san francisco, ca
-        </div>
+      <div className="title-description twelve columns">
+        <span className="menu-item">
+          <Link to={'/'}>home</Link>
+        </span>
         <span className="menu-item">
           <Link to={'about'}>about</Link>
         </span>

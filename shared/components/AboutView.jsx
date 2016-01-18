@@ -25,14 +25,15 @@ export const AboutView = () => {
           <strong>WHAT</strong>
         </div>
         <div className="question-response twelve columns">
-          I spend a lot of time considering 'developer experience' - I'm encouraged
-          by the momentum I see in the community, especially wth an increasingly positive
-          response towards the open source community. I'm particularly passionate
-          about the fact that budding technologies many of us use in production can
-          be the resulting ideas.
+        I spend a lot of time considering 'developer experience' - I'm encouraged
+        by the momentum I see in the community, especially wth an increasingly positive
+        response towards the open source community. I'm particularly passionate
+        about the fact that budding technologies many of us use in production can
+        be the resulting ideas.
         </div>
       </div>
 
+      <hr />
       <div className="question row">
         <div className="question-title twelve columns">
           <strong>WHERE</strong>
@@ -45,5 +46,5 @@ export const AboutView = () => {
       </div>
 
     </div>
-  )
-}
+  );
+};

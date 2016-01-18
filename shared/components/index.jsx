@@ -12,7 +12,7 @@ export default class MainView extends React.Component {
 
   render() {
     return (
-      <div id="main-view container">
+      <div id="main-view">
         <Header />
         {this.props.children}
       </div>

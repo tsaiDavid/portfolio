@@ -47,6 +47,7 @@ app.use((req, res) => {
       const initialState = store.getState();
 
       const HTML = `
+      <!-- Made with <3 by David Tsai using React, Redux, Node, and Express -->
       <!DOCTYPE html>
       <html>
         <head>

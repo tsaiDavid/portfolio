@@ -7,7 +7,7 @@ import { ProjectView }         from 'components/ProjectView'
 
 export default (
   <Route name="app" component={App} path="/">
-    <IndexRoute component={Home}/>
+    <IndexRoute component={ProjectView}/>
     <Route path="about" component={AboutView} />
     <Route path="projects" component={ProjectView} />
   </Route>

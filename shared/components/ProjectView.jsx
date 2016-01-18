@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Projects from './Projects';
 
-export const AboutView = () => {
+export const ProjectView = () => {
   return (
-    <div className="about-container row">
+    <div className="project-view row">
+      <Projects />
       <h3>About David Tsai</h3>
     </div>
-  )
-}
+  );
+};

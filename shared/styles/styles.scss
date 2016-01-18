@@ -7,7 +7,7 @@ body {
 }
 
 .main-header {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 
 .project {
@@ -26,7 +26,10 @@ body {
 }
 
 .about-container {
-  padding-top: 5rem;
+  .about-icons {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 }
 
 .question {

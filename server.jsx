@@ -1,6 +1,6 @@
 import express                   from 'express';
 import React                     from 'react';
-import { renderToString }        from 'react-dom/server'
+import { renderToString }        from 'react-dom/server';
 import { RoutingContext, match } from 'react-router';
 import createLocation            from 'history/lib/createLocation';
 import routes                    from 'routes';
@@ -56,6 +56,7 @@ app.use((req, res) => {
             window.__INITIAL_STATE__ = ${JSON.stringify(initialState)};
           </script>
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" media="screen" />
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
           <link rel="stylesheet" href="/main.css">
         </head>
         <body>
@@ -72,7 +73,7 @@ app.use((req, res) => {
     fetchComponentData(store.dispatch, renderProps.components, renderProps.params)
       .then(renderView)
       .then(html => res.end(html))
-      .catch(err => res.end(err.message));
+      .catch(error => res.end(error.message));
   });
 });
 

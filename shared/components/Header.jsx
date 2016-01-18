@@ -25,9 +25,8 @@ export const Header = () => {
           </a>
         </span>
         <span className="menu-item">
-          <a href="https://www.github.com/tsaiDavid">
-          github
-          </a>
+          <span><i className="fa fa-github"></i></span>
+          <span><a href="https://www.github.com/tsaiDavid">github</a></span>
         </span>
         <span className="menu-item">
           <a href="https://www.linkedin.com/in/davidctsai">

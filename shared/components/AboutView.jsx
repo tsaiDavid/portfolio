@@ -1,20 +1,24 @@
-import React from 'react'
+import React from 'react';
+import { AboutTop } from './AboutTop';
 
 export const AboutView = () => {
   return (
     <div className="about-container container">
-
       <div className="question row">
         <div className="question-title twelve columns">
           <strong>WHO</strong>
         </div>
         <div className="question-response twelve columns">
-          I'm a Full Stack Software Engineer passionate about building and shipping beautiful, thoughtful, and performant products.
+        I'm a Full Stack Software Engineer passionate about building and shipping beautiful, thoughtful, and performant products.
 
-          I'm oriented by a holistic understanding of the full stack, utilizing tools like React, Node, and MongoDB to create products
-          guided by my deep experience in understanding user needs.
+        I'm oriented by a holistic understanding of the full stack, utilizing tools like React, Node, and MongoDB to create products
+        guided by my deep experience in understanding user needs.
         </div>
       </div>
+
+      <hr />
+      <AboutTop />
+      <hr />
 
       <div className="question row">
         <div className="question-title twelve columns">

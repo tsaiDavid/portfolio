@@ -1,4 +1,5 @@
 import React from 'react';
+import AlmanacSlider from './AlmanacSlider';
 
 export default class Projects extends React.Component  {
   render() {
@@ -21,23 +22,23 @@ export default class Projects extends React.Component  {
         </div>
         <hr />
         <div className="project-row row">
-          <img className="nine columns" src="http://i.imgur.com/sCzjkp7.png" />
-          <div className="three columns project-name">Almanac News</div>
+          <div className="twelve columns project-name">Almanac News</div>
+          <div className="project-slider twelve columns"><AlmanacSlider /></div>
         </div>
         <hr />
         <div className="project-row row">
-          <img className="nine columns" src="http://i.imgur.com/TRGdpEe.png" />
-          <div className="three columns project-name">Team Availability</div>
+          <div className="twelve columns project-name">Team Availability</div>
+          <img className="twelve columns" src="http://i.imgur.com/TRGdpEe.png" />
         </div>
         <hr />
         <div className="project-row row">
-          <img className="nine columns" src="http://i.imgur.com/kWzklte.png" />
-          <div className="three columns project-name">What A Nice Guy</div>
+          <div className="twelve columns project-name">What A Nice Guy</div>
+          <img className="twelve columns" src="http://i.imgur.com/kWzklte.png" />
         </div>
         <hr />
         <div className="project-row row">
-          <img className="nine columns" src="http://i.imgur.com/NCulsAp.png" />
-          <div className="three columns project-name">Bookplate</div>
+        <div className="twelve columns project-name">Bookplate<hr/></div>
+          <img className="twelve columns" src="http://i.imgur.com/NCulsAp.png" />
         </div>
       </div>
     );

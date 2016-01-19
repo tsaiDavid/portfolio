@@ -31,26 +31,42 @@ body {
   margin-bottom: 5%;
 }
 
-.project {
-  background-color: #999;
-  height: 400px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.project-row {
-  img {
-    -webkit-box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.55);
-    -moz-box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.55);
-    box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.55);
+.projects-container {
+  .project {
+    background-color: #999;
+    height: 400px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
-  .project-name {
-    padding-top: 1em;
-    font-size: 2rem;
-    text-align: center;
+  .project-title {
+    p {
+      text-align: justify;
+    }
+  }
+
+  .project-row {
+
+    img {
+      -webkit-box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.55);
+      -moz-box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.55);
+      box-shadow: 0px 0px 30px -5px rgba(0,0,0,0.55);
+    }
+
+    .project-name {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      font-size: 2rem;
+      text-align: center;
+      vertical-align: center;
+      background-color: #ECEFF1;
+    }
   }
 }
+
+
+
+
 
 .about-container {
   .about-icons {

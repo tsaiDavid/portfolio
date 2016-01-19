@@ -1,5 +1,6 @@
 import React from 'react';
 import AlmanacSlider from './AlmanacSlider';
+import TeamAvailSlider from './TeamAvailSlider';
 
 export default class Projects extends React.Component  {
   render() {
@@ -28,7 +29,7 @@ export default class Projects extends React.Component  {
         <hr />
         <div className="project-row row">
           <div className="twelve columns project-name">Team Availability</div>
-          <img className="twelve columns" src="http://i.imgur.com/TRGdpEe.png" />
+          <div className="project-slider twelve columns"><TeamAvailSlider /></div>
         </div>
         <hr />
         <div className="project-row row">
@@ -37,7 +38,7 @@ export default class Projects extends React.Component  {
         </div>
         <hr />
         <div className="project-row row">
-        <div className="twelve columns project-name">Bookplate<hr/></div>
+        <div className="twelve columns project-name">Bookplate</div>
           <img className="twelve columns" src="http://i.imgur.com/NCulsAp.png" />
         </div>
       </div>

@@ -23,22 +23,34 @@ export default class Projects extends React.Component  {
         </div>
         <hr />
         <div className="project-row row">
-          <div className="twelve columns project-name">Almanac News</div>
+          <div className="twelve columns project-name">
+            <h5>Almanac News</h5>
+            <em>Responsive, realtime news application providing financial data visualizations.</em>
+          </div>
           <div className="project-slider twelve columns"><AlmanacSlider /></div>
         </div>
         <hr />
         <div className="project-row row">
-          <div className="twelve columns project-name">Team Availability</div>
+          <div className="twelve columns project-name">
+            <h5>Team Availability @ Rafter, Inc.</h5>
+            <em>Internal scheduling app that allows the global engineering team to visualize staff availability.</em>
+          </div>
           <div className="project-slider twelve columns"><TeamAvailSlider /></div>
         </div>
         <hr />
         <div className="project-row row">
-          <div className="twelve columns project-name">What A Nice Guy</div>
+          <div className="twelve columns project-name">
+            <h5>What A Nice Guy</h5>
+            <em>Portfolio for showcasing my artistic works, primarily black and white film photography.</em>
+          </div>
           <img className="twelve columns" src="http://i.imgur.com/kWzklte.png" />
         </div>
         <hr />
         <div className="project-row row">
-        <div className="twelve columns project-name">Bookplate</div>
+          <div className="twelve columns project-name">
+            <h5>Bookplate</h5>
+            <em>Book-management web application designed to complement reading experience.</em>
+          </div>
           <img className="twelve columns" src="http://i.imgur.com/NCulsAp.png" />
         </div>
       </div>

@@ -7,6 +7,10 @@ body {
   margin-bottom: 5%;
 }
 
+#port-source {
+  width: 100%;
+}
+
 .banner-container {
   background-image: url(https://unsplash.it/g/1500/150/?random);
   color: #fff;
@@ -43,6 +47,22 @@ body {
     p {
       text-align: justify;
     }
+  }
+
+  .project-bullets {
+    text-align: left;
+    font-size: 0.8em;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  .project-tech {
+    font-size: 0.9em;
+    padding-bottom: 1em;
+  }
+
+  em {
+    font-size: 0.8em;
   }
 
   .project-row {

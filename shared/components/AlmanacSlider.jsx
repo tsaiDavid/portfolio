@@ -18,10 +18,11 @@ export default class AlmanacSlider extends React.Component {
     return (
       <div>
         <Carousel {...settings}>
-          <img src="http://i.imgur.com/FjlOkD0.png" />
-          <img src="http://i.imgur.com/Hwp4oEW.png" />
-          <img src="http://i.imgur.com/5EIBcIt.png" />
-          <img src="http://i.imgur.com/vGOme8n.png" />
+          <img src="http://i.imgur.com/hxsTSie.png" />
+          <img src="http://i.imgur.com/vcWWCZN.png" />
+          <img src="http://i.imgur.com/PLfAUn5.png" />
+          <img src="http://i.imgur.com/cv8Y7mP.png" />
+          <img src="http://i.imgur.com/rqFm3lG.png" />
         </Carousel>
       </div>
     );

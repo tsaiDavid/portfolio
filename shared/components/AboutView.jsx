@@ -3,7 +3,7 @@ import { AboutTop } from './AboutTop';
 
 export const AboutView = () => {
   return (
-    <div className="about-container container">
+    <div className="view-container about-container container">
       <div className="question row">
         <div className="question-title twelve columns">
           <strong>WHO</strong>

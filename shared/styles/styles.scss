@@ -1,43 +1,98 @@
 @import 'typography';
 @import './fonts/roboto.scss';
 
+$main-font-color: #73787d;
+$main-bg-color: #f4f4f4;
+$accent-orange: #D75C37;
+
 body {
-  background-color: white;
+  background-color: $main-bg-color;
+  color: $main-font-color;
   margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
   margin-bottom: 5%;
 }
 
-#port-source {
-  width: 100%;
-}
-
-.banner-container {
-  background-image: url(https://unsplash.it/g/1500/150/?random);
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  min-height: 150px;
-  text-shadow: 2px 3px 4px #333;
+.nav-exterior {
+  position: fixed;
+  z-index: 1000;
+  -webkit-box-pack: center;
   justify-content: center;
+  background: hsla(0, 0%, 100%, 0.90);
+  width: 100vw;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 72px;
+  border-bottom: 3px solid $accent-orange;
   align-items: center;
-  background-size: cover;
+  flex-flow: row;
+  display: flex;
 
-  .banner-text {
-    font-family: 'Roboto Mono', sans-serif;
-    font-weight: normal;
-    font-size: 5rem;
-    color: #fff;
-    vertical-align: middle;
+  .nav-interior {
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 880px;
+    max-width: 880px;
+
+    @media screen and (max-width: 930px) {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+
+    .nav-link {
+      font-size: 0.8em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      text-decoration: none;
+
+      #nav-link-router {
+        display: flex;
+        text-decoration: none;
+        color: inherit;
+        align-items: center;
+      }
+
+      #nav-name {
+        font-size: 2em;
+      }
+
+      #nav-title {
+        padding-left: 25px;
+        text-transform: lowercase;
+        @media screen and (max-width: 600px) {
+          display: none;
+        }
+      }
+    }
+
+    .nav-links {
+      display: flex;
+      flex-flow: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      a, a:visited {
+        color: inherit;
+        margin-left: 12px;
+        text-decoration: none;
+      }
+    }
   }
 }
 
-.main-header {
-  margin-bottom: 5%;
+.view-container {
+  margin-top: 125px;
 }
 
 .projects-container {
   .project {
-    background-color: #999;
     height: 400px;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -83,14 +138,9 @@ body {
       font-size: 2rem;
       text-align: center;
       vertical-align: center;
-      background-color: #ECEFF1;
     }
   }
 }
-
-
-
-
 
 .about-container {
   .about-icons {
@@ -101,9 +151,6 @@ body {
 
   i {
     padding-right: 1em;
-  }
-
-  span {
   }
 }
 
@@ -116,44 +163,6 @@ body {
 
   .question-response {
     text-align: justify;
-  }
-}
-
-.title-description {
-  background-color: #67727A;
-  color: white;
-  text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.main-header {
-  background-color: #C3D7DF;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-}
-
-.menu-item {
-  padding-left: 1em;
-  padding-right: 1em;
-
-  a {
-    color: #C3D7DF;
-  }
-}
-
-.header-separator {
-  background-color: #D75C37;
-  height: 5px;
-}
-
-.title-name {
-  color: #466675;
-  text-align: center;
-  &:hover {
-    color: white;
-    cursor: pointer;
   }
 }
 

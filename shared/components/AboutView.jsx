@@ -6,7 +6,7 @@ export const AboutView = () => {
     <div className="view-container about-container container">
       <div className="question row">
         <div className="question-title twelve columns">
-          <strong>WHO</strong>
+          Product and User-Driven
         </div>
         <div className="question-response twelve columns">
         I'm a Full Stack Software Engineer passionate about building and shipping beautiful, thoughtful, and performant products.
@@ -22,7 +22,7 @@ export const AboutView = () => {
 
       <div className="question row">
         <div className="question-title twelve columns">
-          <strong>WHAT</strong>
+          What I'm Looking For
         </div>
         <div className="question-response twelve columns">
         I spend a lot of time considering 'developer experience' - I'm encouraged

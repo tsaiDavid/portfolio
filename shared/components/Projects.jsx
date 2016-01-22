@@ -7,20 +7,17 @@ export default class Projects extends React.Component  {
     return (
       <div className="projects-container">
         <div className="project-title row">
-          <div className="twelve columns">
-            <p>
-            Here are some of my most recent projects I've worked on. Many of them,
-            if not all, feature a different intended audience - and were specifically
-            developed with that in mind. They demonstrate my track record in designing
-            and implementing both small and large-scale applications that leverage either
-            legacy or cutting-edge technologies to get the job done properly.
-            </p>
-            <p>
-            This very portfolio itself was created in order to explore the utility of
-            creating a server-side rendered React/Redux application.
-            <br />
-            <a id="port-source" href="https://github.com/tsaiDavid/portfolio">View the source code here.</a>
-            </p>
+          <div className="project-home-intro twelve columns">
+          Here are some of my most recent projects I've worked on. Many of them,
+          if not all, feature a different intended audience - and were specifically
+          developed with that in mind. They demonstrate my track record in designing
+          and implementing both small and large-scale applications that leverage either
+          legacy or cutting-edge technologies to get the job done properly.
+          <br /><br />
+          This very portfolio itself was created in order to explore the utility of
+          creating a server-side rendered React/Redux application.
+          <br /><br />
+          <a id="port-source" href="https://github.com/tsaiDavid/portfolio">Portfolio source code on GitHub</a>
           </div>
         </div>
         <hr />

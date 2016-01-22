@@ -6,7 +6,11 @@ $main-bg-color: #f4f4f4;
 $accent-orange: #D75C37;
 
 body {
-  background-color: $main-bg-color;
+  background-image: url('../media/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  // background-color: $main-bg-color;
   color: $main-font-color;
   margin: 0;
   padding: 0;
@@ -92,6 +96,10 @@ body {
 }
 
 .projects-container {
+  background-color: hsla(0, 0%, 100%, 0.80);
+  padding: 30px;
+
+
   .project {
     height: 400px;
     margin-top: 1rem;
@@ -102,11 +110,23 @@ body {
     p {
       text-align: justify;
     }
+
+    .project-home-intro {
+      font-size: 0.9em;
+      text-align: justify;
+      padding-left: 3em;
+      padding-right: 3em;
+    }
+
+    #port-source {
+      text-align: center;
+    }
+
   }
 
   .project-bullets {
     text-align: left;
-    font-size: 0.8em;
+    font-size: 0.7em;
     padding-left: 3em;
     padding-right: 3em;
   }
@@ -158,18 +178,13 @@ body {
   padding-bottom: 2rem;
 
   .question-title {
-    padding-bottom: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    // padding-bottom: 1rem;
   }
 
   .question-response {
     text-align: justify;
   }
-}
-
-.video-wrapper {
-  margin: 2rem;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
 }

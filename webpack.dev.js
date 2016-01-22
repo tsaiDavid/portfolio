@@ -44,6 +44,10 @@ export default function(app) {
       {
         test: /\.scss$/,
         loader: 'style!css!sass'
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        loader: "file-loader?name=img/img-[hash:6].[ext]"
       }]
     },
     plugins: [

@@ -10,13 +10,16 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  // background-color: $main-bg-color;
   color: $main-font-color;
   margin: 0;
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
   margin-bottom: 5%;
+
+  a:hover {
+      color: $accent-orange !important;
+  }
 }
 
 .nav-exterior {
@@ -93,13 +96,11 @@ body {
 
 .view-container {
   margin-top: 125px;
+  background-color: hsla(0, 0%, 100%, 0.80);
+  padding: 30px;
 }
 
 .projects-container {
-  background-color: hsla(0, 0%, 100%, 0.80);
-  padding: 30px;
-
-
   .project {
     height: 400px;
     margin-top: 1rem;
@@ -163,10 +164,22 @@ body {
 }
 
 .about-container {
+  a {
+    text-decoration: none;
+    color: $main-font-color;
+  }
+
   .about-icons {
     text-align: center;
     padding-top: 2em;
     padding-bottom: 2em;
+
+    @media screen and (max-width: 930px) {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+
   }
 
   i {
@@ -178,13 +191,21 @@ body {
   padding-bottom: 2rem;
 
   .question-title {
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    font-weight: bold;
-    // padding-bottom: 1rem;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+
+    @media screen and (max-width: 600px) {
+      text-align: center;
+    }
   }
 
   .question-response {
     text-align: justify;
+
+    @media screen and (max-width: 600px) {
+      font-size: 1.3rem;
+    }
   }
 }

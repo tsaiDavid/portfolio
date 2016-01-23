@@ -36,7 +36,7 @@ export const AboutView = () => {
       <hr />
       <div className="question row">
         <div className="question-title twelve columns">
-          <strong>WHERE</strong>
+          Built with
         </div>
         <div className="question-response twelve columns">
           I decided to leverage some of my favorite technologies in building out this portfolio.

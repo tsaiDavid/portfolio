@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'nuka-carousel';
 
-export default class AlmanacSlider extends React.Component {
+export default class AlmanacNewsView extends React.Component {
   render() {
     const settings = {
       dragging: true,
@@ -12,11 +12,11 @@ export default class AlmanacSlider extends React.Component {
       slideWidth: 1,
       slidesToScroll: 1,
       slidesToShow: 1,
-      framePadding: '10%'
-    }
+      framePadding: '10%',
+    };
 
     return (
-      <div>
+      <div className="view-container">
         <Carousel {...settings}>
           <img src="http://i.imgur.com/hxsTSie.png" />
           <img src="http://i.imgur.com/vcWWCZN.png" />

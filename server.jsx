@@ -63,7 +63,6 @@ app.use((req, res) => {
         <body>
           <div id="react-view">${componentHTML}</div>
           <script type="application/javascript" src="/bundle.js"></script>
-          <script type"text/javascript" src="https://assets.gfycat.com/gfycat.js"></script>
         </body>
       </html>
       `;

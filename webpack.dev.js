@@ -37,7 +37,7 @@ export default function(app) {
     module: {
       loaders: [{
         test:    /\.jsx?$/,
-        exclude: /node_modules/,
+        exclude: [ /node_modules/, /styles/, /media/ ],
         loader:  'babel',
         query:   BABEL_QUERY
       },

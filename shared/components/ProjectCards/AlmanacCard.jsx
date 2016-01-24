@@ -8,13 +8,11 @@ export default class AlmanacCard extends React.Component {
         <div className="project-title">
         Almanac News
         </div>
-
         <div className="img-wrapper">
-          <Link to={'almanac-news'}>
+          <Link to={'almanac'}>
             <img src="https://davidtsai.imgix.net/portfolio/media/almanac/almanac-landing.png?auto=format" />
-                  </Link>
-          </div>
-
+          </Link>
+        </div>
       </div>
     );
   }

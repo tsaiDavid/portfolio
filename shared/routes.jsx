@@ -9,6 +9,7 @@ export default (
   <Route name="app" component={App} path="/">
     <IndexRoute component={ProjectView}/>
     <Route path="about" component={AboutView} />
-    <Route path="almanac-news" component={AlmanacNewsView} />
+    <Route path="almanac" component={AlmanacNewsView} />
+    <Route path="bookplate" component={AlmanacNewsView} />
   </Route>
 );

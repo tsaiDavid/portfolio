@@ -8,7 +8,7 @@ export default class TeamAvailabilityCard extends React.Component {
         <div className="project-title">
         Team Availability for Rafter Inc.
         </div>
-        <Link to={'team-availability'}>
+        <Link to={'team-avail'}>
           <div className="img-wrapper">
             <img src="https://davidtsai.imgix.net/portfolio/media/teamavail/team-avail-home.png?auto=format" />
           </div>

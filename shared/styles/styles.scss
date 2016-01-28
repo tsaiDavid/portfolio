@@ -103,6 +103,10 @@ body {
 }
 
 .projects-container {
+  #recent-projects {
+    font-size: 1.5em;
+  }
+
   .project {
     height: 400px;
     margin-top: 1rem;
@@ -172,20 +176,15 @@ body {
   }
 
   .about-icons {
-    text-align: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 2em;
 
-    @media screen and (max-width: 930px) {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-    }
-
-
-  }
-
-  i {
-    padding-right: 1em;
+    // @media screen and (max-width: 930px) {
+    //   padding-top: 1rem;
+    //   padding-bottom: 1rem;
+    // }
   }
 }
 
@@ -193,9 +192,10 @@ body {
   padding-bottom: 2rem;
 
   .question-title {
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: bolder;
+    letter-spacing: normal;
+    font-size: 1.5em;
+    text-transform: none;
+    font-weight: 300;
     padding-bottom: 1rem;
 
     @media screen and (max-width: 600px) {
@@ -216,8 +216,6 @@ body {
   padding-top: 2em;
   display: flex;
   flex-flow: row wrap;
-  padding-left: 10%;
-  padding-right: 10%;
 
   .project-title {
     text-align: center;

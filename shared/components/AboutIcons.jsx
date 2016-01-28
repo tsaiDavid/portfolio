@@ -4,28 +4,11 @@ export const AboutIcons = () => {
   return (
     <div>
       <div className="about-icons row">
-        <i className="fa fa-linkedin-square"></i>
-        <span><a href="https://www.linkedin.com/in/davidctsai">LinkedIn</a></span>
-      </div>
-
-      <div className="about-icons row">
-        <i className="fa fa-file-text-o"></i>
-        <span><a href="">Resume</a></span>
-      </div>
-
-      <div className="about-icons row">
-        <i className="fa fa-angellist"></i>
-        <span><a href="https://angel.co/tsaiDavid">AngelList</a></span>
-      </div>
-
-      <div className="about-icons row">
-        <i className="fa fa-github-square"></i>
-        <span><a href="https://github.com/tsaiDavid/">GitHub</a></span>
-      </div>
-
-      <div className="about-icons row">
-        <i className="fa fa-envelope-o"></i>
-        <span><a href="mailto:david@whataniceguy.com">Email</a></span>
+        <a className="three columns" href="https://www.linkedin.com/in/davidctsai"><i className="fa fa-linkedin-square"></i></a>
+        {/*<i className="fa fa-file-text-o"></i>*/}
+        <a className="three columns" href="https://angel.co/tsaiDavid"><i className="fa fa-angellist"></i></a>
+        <a className="three columns" href="https://github.com/tsaiDavid/"><i className="fa fa-github-square"></i></a>
+        <a className="three columns" href="mailto:david@whataniceguy.com"><i className="fa fa-envelope-o"></i></a>
       </div>
     </div>
   );

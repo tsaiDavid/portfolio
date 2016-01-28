@@ -4,6 +4,7 @@ import { AboutTop } from './AboutTop';
 export const AboutView = () => {
   return (
     <div className="view-container about-container container">
+    <div className="project-view">
       <div className="question row">
         <div className="question-title twelve columns">
           Product and User-Driven
@@ -44,7 +45,7 @@ export const AboutView = () => {
           able to incorporate server-side-rendering (also known as universal or isomoprhic).
         </div>
       </div>
-
+      </div>
     </div>
   );
 };
